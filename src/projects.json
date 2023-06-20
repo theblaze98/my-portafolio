@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Calculadora Web",
+        "description": "Una calculadora web que realiza calculos basicos como: suma, resta, division y multiplicacion",
+        "languages": "HTML - SASS - CSS - Javascript",
+        "repositoryUrl": "https://github.com/theblaze98/calculadora-web",
+        "demoUrl": "https://theblaze98.github.io/calculadora-web"
+    },
+    {
+        "name": "Generador de Contraseñas",
+        "description": "Una web para generar contraseñas aleatorias y seguras para proteger tus cuentas",
+        "languages": "HTML - SCSS - CSS - Javascript",
+        "repositoryUrl": "https://github.com/theblaze98/password-generator",
+        "demoUrl": "https://theblaze98.github.io/password-generator"
+    },
+    {
+        "name": "Bot de Discord",
+        "description": "Un bot de discord con comandos de interaccion",
+        "languages": "Javascript",
+        "repositoryUrl": "https://github.com/theblaze98/bot-nino-nakano",
+        "demoUrl": ""
+    },
+    {
+        "name": "Notes Web (Backend)",
+        "description": "API para una web de notas hecha con express, y usando mongoDB com base de datos",
+        "languages": "Typescript",
+        "repositoryUrl": "https://github.com/theblaze98/notes-web-backend-ts",
+        "demoUrl": ""
+    }
+
+]
