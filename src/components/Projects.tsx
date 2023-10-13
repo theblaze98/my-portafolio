@@ -5,6 +5,8 @@ import ProjectCard from '@/components/ProjectCard'
 function Projects() {
 	const [page, setPage] = useState<number>(1)
 
+	const maxPages = Math.ceil(projects.length / 4)
+
 	const nextPage = () => {
 		setPage(page + 1)
 	}
@@ -32,16 +34,16 @@ function Projects() {
 			<div className='flex gap-4 justify-center items-center basis-full'>
 				<button
 					onClick={previusPage}
-					disabled={page === 1}
+					disabled={page <= 1}
 					className='bg-blue-600 text-white px-3 py-2 rounded-md disabled:bg-blue-400/75'>
 					Anterior
 				</button>
-				<p className='text-xl font-medium text-center text-white/75 shadow-md shadow-blue-600/75/50'>
+				<p className='text-xl font-medium text-center'>
 					{page}
 				</p>
 				<button
 					onClick={nextPage}
-					disabled={page === Math.ceil(projects.length / 2)}
+					disabled={page >= maxPages}
 					className='bg-blue-600 text-white px-3 py-2 rounded-md disabled:bg-blue-400/75'>
 					Siguiente
 				</button>

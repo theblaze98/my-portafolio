@@ -9,7 +9,7 @@ import {
 } from 'react-icons/di'
 import { SiTailwindcss, SiTypescript, SiExpress } from 'react-icons/si'
 import ToggleDarkModeButton from './components/ToggleDarkModeButton'
-import photo from './assets/photo.png'
+import photo from './assets/photo.jpg'
 import Projects from './components/Projects'
 import curriculum from './assets/curriculum.pdf'
 
