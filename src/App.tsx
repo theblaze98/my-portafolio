@@ -7,11 +7,10 @@ import {
 	DiNodejs,
 	DiMongodb,
 } from 'react-icons/di'
-import { SiTailwindcss } from 'react-icons/si'
+import { SiTailwindcss, SiTypescript, SiExpress } from 'react-icons/si'
 import ToggleDarkModeButton from './components/ToggleDarkModeButton'
 import photo from './assets/photo.png'
-import ProjectCard from './components/ProjectCard'
-import projects from './projects.json'
+import Projects from './components/Projects'
 import curriculum from './assets/curriculum.pdf'
 
 function App() {
@@ -35,26 +34,23 @@ function App() {
 							Sobre M&iacute;
 						</h3>
 						<p className='text-center text-md'>
-							Soy Dionicio Vargas, un apasionado desarrollador web
-							en entrenamiento con una dedicación constante a la
-							programación y a las diversas áreas de la
-							tecnología. Durante los últimos dos años, he estado
-							inmerso en el aprendizaje de diferentes aspectos de
-							la programación.
+							Soy Dionicio Vargas, un apasionado desarrollador web en
+							entrenamiento con una dedicación constante a la programación y a
+							las diversas áreas de la tecnología. Durante los últimos dos años,
+							he estado inmerso en el aprendizaje de diferentes aspectos de la
+							programación.
 							<br />
-							Mi enfoque principal ha sido en el desarrollo web,
-							donde he adquirido conocimientos básicos en el stack
-							MERN, que incluye MongoDB, Express, React y Node.js.
-							A través de proyectos prácticos, he tenido la
-							oportunidad de aplicar estas tecnologías y mejorar
-							mis habilidades en el diseño y desarrollo de
-							aplicaciones web.
+							Mi enfoque principal ha sido en el desarrollo web, donde he
+							adquirido conocimientos básicos en el stack MERN, que incluye
+							MongoDB, Express, React y Node.js. A través de proyectos
+							prácticos, he tenido la oportunidad de aplicar estas tecnologías y
+							mejorar mis habilidades en el diseño y desarrollo de aplicaciones
+							web.
 							<br />
-							Estoy entusiasmado por
-							tener la oportunidad de aplicar mis conocimientos y
-							habilidades en un entorno laboral desafiante,
-							contribuyendo de manera significativa al desarrollo
-							de soluciones tecnológicas innovadoras.
+							Estoy entusiasmado por tener la oportunidad de aplicar mis
+							conocimientos y habilidades en un entorno laboral desafiante,
+							contribuyendo de manera significativa al desarrollo de soluciones
+							tecnológicas innovadoras.
 						</p>
 					</section>
 					<section className='flex gap-4 p-4 text-lg'>
@@ -73,41 +69,21 @@ function App() {
 					</section>
 				</article>
 				<article>
-					<h3 className='my-5 text-center text-3xl font-medium'>
-						Proyectos
-					</h3>
-					<section className='w-full p-5 flex gap-5 flex-wrap h-96 overflow-y-auto scrollbar'>
-						{projects.map(
-							({
-								name,
-								description,
-								languages,
-								repositoryUrl,
-								demoUrl,
-							}) => (
-								<ProjectCard
-									nameProject={name}
-									description={description}
-									languages={languages}
-									githubUrl={repositoryUrl}
-									demoUrl={demoUrl}
-								/>
-							)
-						)}
-					</section>
+					<h3 className='my-5 text-center text-3xl font-medium'>Proyectos</h3>
+					<Projects />
 				</article>
 				<article>
-					<h3 className='text-center text-3xl font-medium'>
-						Habilidades
-					</h3>
-					<section className='flex text-4xl justify-between p-6'>
-						<DiHtml5 />
-						<DiCss3 />
-						<DiJsBadge />
-						<DiNodejs />
-						<SiTailwindcss />
-						<DiReact />
-						<DiMongodb />
+					<h3 className='text-center text-3xl font-medium'>Habilidades</h3>
+					<section className='flex text-4xl justify-between gap-2 p-6 flex-wrap'>
+						<DiHtml5 className='basis-1/6' />
+						<DiCss3 className='basis-1/6' />
+						<DiJsBadge className='basis-1/6' />
+						<DiNodejs className='basis-1/6' />
+						<SiTypescript className='basis-1/6' />
+						<SiExpress className='basis-1/6' />
+						<SiTailwindcss className='basis-1/6' />
+						<DiReact className='basis-1/6' />
+						<DiMongodb className='basis-1/6' />
 					</section>
 				</article>
 			</main>

@@ -31,17 +31,6 @@
 		@apply p-3 rounded;
 		width: calc(50% - 0.625rem);
 	}
-	.scrollbar {
-		scrollbar-width: thin;
-		scrollbar-color: rgb(51 65 85) transparent;
-	}
-	.scrollbar::-webkit-scrollbar {
-		width: 5px;
-	}
-	.scrollbar::-webkit-scrollbar-thumb {
-		@apply bg-slate-700;
-		border-radius: 4px;
-	}
 }
 
 @media screen and (max-width: 640px) {

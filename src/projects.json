@@ -14,6 +14,13 @@
         "demoUrl": "https://theblaze98.github.io/password-generator"
     },
     {
+			"name": "Discord Profile Card",
+			"description": "Clon de un perfil de discord",
+			"languages": "HTML - SASS - CSS - Javascript",
+			"repositoryUrl": "https://github.com/theblaze98/profile-card-discord",
+			"demoUrl": "https://theblaze98.github.io/profile-card-discord/"
+    },
+    {
         "name": "Bot de Discord",
         "description": "Un bot de discord con comandos de interaccion",
         "languages": "Javascript",
@@ -23,9 +30,15 @@
     {
         "name": "Notes Web (Backend)",
         "description": "API para una web de notas hecha con express, y usando mongoDB com base de datos",
-        "languages": "Typescript",
-        "repositoryUrl": "https://github.com/theblaze98/notes-web-backend-ts",
+        "languages": "Javascript",
+        "repositoryUrl": "https://github.com/theblaze98/notes-app-backend",
         "demoUrl": ""
-    }
-
+    },
+		{
+			"name": "Notes Web (Frontend)",
+			"description": "Pagina web para la creacion de notas con autenticacion de usuario",
+			"languages": "Javascript - React",
+			"repositoryUrl": "https://github.com/theblaze98/notes-app-frontend",
+			"demoUrl": ""
+		}
 ]
