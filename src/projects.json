@@ -40,5 +40,13 @@
 			"languages": "Javascript - React",
 			"repositoryUrl": "https://github.com/theblaze98/notes-app-frontend",
 			"demoUrl": ""
-		}
+		},
+    {
+      "name": "Task App",
+			"description": "Pagina web de tareas",
+			"languages": "typescript - React",
+			"repositoryUrl": "https://github.com/theblaze98/task-app",
+			"demoUrl": ""
+
+    }
 ]
